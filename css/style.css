@@ -1,0 +1,205 @@
+*{margin: 0; padding: 0;}
+/*INDEX PAGE */
+body#home_body{background-color: #EEEEEE; font-family: arial;}
+
+#index_login_container{
+ background: #EEEEEE;
+ width: 300px;
+ margin: auto;
+ margin-top: 15%;
+ padding: 40px;
+ border-radius: 4px }
+.login_input{
+ margin-bottom: 10px;
+ padding: 12px;
+ border: none;
+ border-radius: 4px;
+ width: 100%;
+}
+.login_input:focus{
+	outline: none;
+ }
+.login_button{
+	width: 100%;
+ height: 40px;
+ border: none;
+ border-radius: 4px;
+ color: white;
+ background-color: #0288D1;
+ }
+.login_button:focus{
+	outline: none;
+}
+.login_register_button{
+	width: 100%;
+ height: 40px;
+ border: none;
+ border-radius: 4px;
+ color: white;
+ background-color: #f44336;
+ margin-top: 10px;
+ }
+.login_register_button:focus{
+	outline: none;
+}
+#index_register_container{
+	width: 300px;
+ padding: 40px;
+ background-color: red;
+ margin: auto;
+ margin-top: 110px;
+ display: none;
+ background: #EEEEEE;
+} 
+.register_input{
+	margin-bottom: 10px;
+ width: 100%;
+ padding: 15px;
+ border: none;
+ border-radius: 4px;
+ }
+.register_input:focus{
+	outline: none;
+}
+/*THIS IS THE HOME.PHP STYLE*/
+
+ /*ALL BODY CONTAINER*/#top_body_container{
+   width: 600px; height:250px; background-color: white;   margin-left: 275px; margin-top: 75px; border-radius: 4px;-webkit-box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);}
+
+#middle_body_container{
+ width: 600px; height:550px; background-color: white;   margin-left: 275px; margin-top: 25px; border-radius: 4px; margin-bottom: 50px; -webkit-box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);}
+
+/*SEARCH PAGE*/
+
+
+
+body#seacrh{
+	background-color: #EEEEEE; font-family: arial;}
+#all_results_container{
+ width: 600px;  background-color: white;   margin-left: 275px; margin-top: 75px; border-radius: 4px; margin-bottom: 50px; -webkit-box-shadow: 1px 1px 22px -8px rgba(0,0,0,1);
+-moz-box-shadow: 1px 1px 22px -8px rgba(0,0,0,1);
+box-shadow: 1px 1px 22px -8px rgba(0,0,0,1); padding: 15px;}
+
+#each_result_container{
+	background-color:#ECEFF1;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#each_result_profile_image{
+	width: 80px; height: 80px; background-color: #006064;  border-radius: 4px;
+}
+
+#each_result_name{
+	margin-left: 90px;
+	position: absolute;
+	font-size: 14px;
+}
+#each_result_expertin{
+	margin-left: 90px;
+	position: absolute;
+	margin-top: -35px;
+	color: #f44336;
+	font-size: 14px;
+}
+
+.each_result_add_user{
+	 background-color: #01579B;
+	margin-left:450px;
+	position: absolute;
+	margin-top: -40px;
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 4px;
+	color: white;
+	font-size: 12px;
+}
+
+.each_result_request_sent{
+	 background-color: grey;
+	margin-left:450px;
+	position: absolute;
+	margin-top: -40px;
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 4px;
+	color: white;
+	font-size: 12px;
+}
+.each_result_friends{
+	 background-color: #43A047;
+	margin-left:450px;
+	position: absolute;
+	margin-top: -40px;
+	text-decoration: none;
+	padding: 6px;
+	border-radius: 4px;
+	color: white;
+	font-size: 12px;
+}
+
+.each_result_add_user:hover,.each_result_request_sent:hover,.each_result_friends:hover{text-decoration: none; color: white;}
+
+#home_updates_container{
+	width: 250px;
+	background-color: white;
+	border-radius: 4px;
+	position: absolute;
+	margin-left: 910px;
+	margin-top: 75px;
+	-webkit-box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 48px -23px rgba(0,0,0,0.75);
+color: grey;
+padding: 10px;
+
+}
+
+
+
+
+
+
+#home_friend_request_individual_container{
+	border-radius: 2px;
+	color:#46629E;
+	padding: 7px;
+	margin-bottom: 7px;
+}
+
+#linia,.line1{
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+#accept_friend_request{
+	
+	color:blue;
+	font-size: 12px;
+}
+
+#decline_friend_request{
+	color:white;
+	font-size: 12px;
+	color: red;
+	margin-left: 15px;
+}
+
+#accept_friend_request:hover,#decline_friend_request:hover{
+	text-decoration: none;
+}
+
+#accept_decline_container{
+	position: absolute;
+	margin-top: -23px;
+	margin-left: 120px;
+}
+#home_friend_request_individual_container:hover{
+	background-color: #EEEEEE;
+}
+h5{position: absolute;}
