@@ -1,4 +1,7 @@
+
 <?php
+
+	//Śtart of php code
 	session_start();
 
 	if (isset($_SESSION['id'])) {
