@@ -1,5 +1,6 @@
 <?php
 	
+	//Simple script to accept friends 
 	session_start();
 	include 'php/connection.php';
 
