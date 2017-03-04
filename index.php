@@ -22,14 +22,17 @@
 					<input type='text' name='register_email' placeholder='email' class='register_input'>
 					<input type='text' name='register_location' placeholder='Location' class='register_input'>
 					<select name='register_expertin' class='register_input'>
+
 						<option>Php</option>
 						<option>Java</option>
 						<option>c++</option>
 						<option>Front End</option>
+
 					</select>	
 					<input type='password' name='register_password' placeholder='password' class='register_input'>
 					<input type='password' name='register_password_confirm' placeholder='Confirm Password' class='register_input'>
 					<select name='register_team' class='register_input'>
+
 						<option >Programmer</option>
 						<option >Designer</option>
 					</select>
@@ -63,6 +66,7 @@
 									$('#register_result').html(data);
 								} 
 							});
+							
 							return false;
 						})
 
