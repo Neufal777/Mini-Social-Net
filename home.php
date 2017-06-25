@@ -5,7 +5,9 @@
 	session_start();
 
 	if (isset($_SESSION['id'])) {
+		
 		$s_id = $_SESSION['id'];
+
 		$s_username = $_SESSION['username'];
 
 	}else{
