@@ -5,7 +5,7 @@
 	session_start();
 
 	if (isset($_SESSION['id'])) {
-		
+
 		$s_id = $_SESSION['id'];
 
 		$s_username = $_SESSION['username'];
@@ -56,7 +56,7 @@
 
 
 		if (mysqli_num_rows($check_requests)>0) {
-				
+
 				while ($re = $check_requests->fetch_assoc()) {
 						// requests
 						$r = array($re['user1'],$re['id']);
@@ -83,6 +83,3 @@
 
 </body>
 </html>
-
-
-

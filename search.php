@@ -21,7 +21,7 @@
 			$select_searched = mysqli_query($db_con,"SELECT *  FROM users WHERE name LIKE '%$searched%' or username  LIKE  '%$searched%' or expertin  LIKE  '%$searched%' or team  LIKE  '%$searched%' ");
 
 			if (mysqli_num_rows($select_searched)>0) {
-					
+
 					while ($s_q = $select_searched->fetch_assoc()) {
 
 							// Searched information
@@ -34,7 +34,7 @@
 										<span id='each_result_name'>$si[0]  [ $si[1] ]</span>
 												<div id='each_result_profile_image'></div>
 														<div id='each_result_expertin'>[ $si[4] $si[6] ]</div>
-													
+
 											";?>
 												<?php
 													if ($active==$si[1]) {
@@ -42,7 +42,7 @@
 													}elseif (mysqli_num_rows($check_if_alredy_friends)>0) {
 
 														while ($status= $check_if_alredy_friends->fetch_assoc()) {
-																
+
 																$stat = array($status['status']);
 
 																if ($stat[0]=='sent') {
@@ -56,10 +56,10 @@
 													}
 												?>
 											<?php echo "
-													
+
 								  </div> <!--each_result_container-->"		;
 
-						
+
 					}
 			}else{
 				echo "<h5>We Found 0 Results</h5>";
@@ -72,7 +72,7 @@
 
 	</div>
 	<script type="text/javascript">
-		// Send a friend 
+		// Send a friend
 
 		$(document).ready(function(){
 
@@ -81,7 +81,7 @@
 					$.ajax({
 						url : $(this).attr('href'),
 						success: function(){
-							
+
 						}
 					})
 					return false;
@@ -92,5 +92,3 @@
 
 </body>
 </html>
-
-
