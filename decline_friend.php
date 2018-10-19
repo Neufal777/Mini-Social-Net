@@ -3,6 +3,7 @@
 	session_start();
 	include 'php/connection.php';
 
+	//id
 	$friend_request_id = $_GET['id'];
 
 	//Decline friend, database sql
